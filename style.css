@@ -6,8 +6,9 @@ body{
     color: #272727;
     text-align: center;
     font-family: Lato;    
-    font-size: 2.5rem;    
-    font-weight: 800;    
+    text-align: center;
+    font-weight: 800;
+    font-size: 60px;     
 }
 .hot-deal{
     display: flex;
@@ -69,10 +70,59 @@ header{
     background: #E55473;
     padding: 20px 43px;    
 }
-.social-section-image{
+.feature-flower{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.feature{
+    display: block;
+    align-items: center;
+    margin: 0 250px;
+}
+.feature-flower p{
+    text-align: center;
+    padding: 10px;
+}
+.pink-flower{
+    border-radius: 18.75rem 18.75rem 0rem 0rem;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 50px 50px 0px;   
+    height: 33.625rem;
+    
+   
+}
+.pink-flowe p{
+    font-size: 20px;
+}
+.red-flower{
+    border-radius: 18.75rem 18.75rem 0rem 0rem;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 50px 50px 0px;
+    
+    height: 33.625rem;
+}
+.yellow-flower{
+    border-radius: 18.75rem 18.75rem 0rem 0rem;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 50px 50px 0px;
+    
+    height: 33.625rem;
+}
+.delivary{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin: 0 250px;
+    border-radius: 0.5rem;
+    background: rgba(39, 39, 39, 0.05);
+    padding:  50px 350px;
+}
+.social-section-image{
+    display: flex;
+    justify-content: space-around;
     margin:0 250px;
+  
     
     
 }
