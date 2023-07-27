@@ -2,18 +2,32 @@ body{
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
+.title{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;    
+    font-size: 2.5rem;    
+    font-weight: 800;    
+}
+.description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 1.125rem;    
+    font-weight: 400;
+    
+    
+}
 header{
-    display: flex;
-    width: 1920px;
-    height: 850px;
-    gap: 450px;
-    height: 850px; 
+    display: flex;    
+    height: 53.125rem;    
+    gap: 450px;     
     background: rgba(229, 84, 115, 0.10); 
     padding-left: 240px;  
     padding-right: 240px;
     background-image: url('FlowerAsset/pngwing 10.png');  
     background-repeat: no-repeat;
-    background-position:1500px 50px;
+    background-position:bottom right;
 }
 .header-column{
     display: block;
@@ -29,8 +43,7 @@ header{
     color: rgba(39, 39, 39, 0.60);    
     font-size: 18px;  
     max-width: 600px;  
-    font-weight: 400;
-    
+    font-weight: 400;    
 }  
 .btn{
     color: #FFF;    
@@ -40,7 +53,65 @@ header{
     background: #E55473;
     padding: 20px 43px;    
 }
-.header-image{
+.social-section-image{
+    display: flex;
+    justify-content: space-between;
+    margin:0 250px;
     
     
 }
+.latest-deal{  
+    margin: 250px; 
+    padding: 20px; 
+    height: 28.0625rem;    
+    background-image: url('FlowerAsset/Rectangle 9.png');
+    background-repeat: no-repeat;
+    display: block;
+    align-items: center;     
+}
+.latest-bottom{
+    text-align: center;
+    margin-top: 50px;
+}
+.email{
+    padding: 25px;
+    width: 50%;
+    border-radius: 5px;
+}
+.latest-deal title{
+    margin-top: 100px;
+}
+footer{
+    display: block; 
+    text-align: center;    
+    height: 28.0625rem;
+    background-color: #111010;    
+    padding-top: 200px;
+    color: rgba(255, 255, 255, 0.90);
+}
+.fotter-description{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;    
+    font-size: 20px;    
+    font-weight: 400; 
+    margin: 0 auto; 
+    width: 650px;  
+}
+.flower{
+    color: #E55473;    
+    font-size: 3rem;    
+    font-weight: 800;
+}
+.shop{
+    color: #FFF;    
+    font-size: 3rem;   
+    font-weight: 800;    
+}    
+.footer-last{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;    
+    font-size: 10px;   
+    font-weight: 400;
+    width: 500px;    
+}
+
