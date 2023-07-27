@@ -9,6 +9,22 @@ body{
     font-size: 2.5rem;    
     font-weight: 800;    
 }
+.hot-deal{
+    display: flex;
+    border-radius: 0.5rem;
+    background: rgba(229, 84, 115, 0.05);
+    margin-top: 100px;
+    justify-content: space-around;
+    padding: 100px;
+
+}
+.hot-deal-left-column{
+    display: block;
+    text-align: center;
+}
+.off{
+    color: #E55473;
+}
 .description{
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
