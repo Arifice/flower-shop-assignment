@@ -1,0 +1,46 @@
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    display: flex;
+    width: 1920px;
+    height: 850px;
+    gap: 450px;
+    height: 850px; 
+    background: rgba(229, 84, 115, 0.10); 
+    padding-left: 240px;  
+    padding-right: 240px;
+    background-image: url('../Flower Asset/pngwing 10.png');  
+    background-repeat: no-repeat;
+    background-position:1500px 50px;
+}
+.header-column{
+    display: block;
+    
+}
+.header-title{
+    color: #272727;    
+    font-size: 80px;    
+    font-weight: 800;
+    width: 800px;
+}
+.header-description{
+    color: rgba(39, 39, 39, 0.60);    
+    font-size: 18px;  
+    max-width: 600px;  
+    font-weight: 400;
+    
+}  
+.btn{
+    color: #FFF;    
+    font-size: 20px;    
+    font-weight: 700;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;    
+}
+.header-image{
+    
+    
+}
